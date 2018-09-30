@@ -1,0 +1,22 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+    <id>customArchitype</id>
+    <sources>
+        <source>src/main/java/JAXRSConfiguration.java</source>
+        <source>src/main/java/business/JobBusiness.java</source>
+        <source>src/main/java/dao/Dao.java</source>
+        <source>src/main/java/dao/JobDao.java</source>
+        <source>src/main/java/entity/Entity.java</source>
+        <source>src/main/java/entity/Job.java</source>
+        <source>src/main/java/resource/JobResource.java</source>
+
+    </sources>
+    <resources>
+        <resource>src/main/resources/log4j2.xml</resource>
+        <resource>src/main/webapp/WEB-INF/classes/META-INF/persistence.xml</resource>
+        <resource>src/main/webapp/WEB-INF/beans.xml</resource>
+    </resources>
+    <testSources>
+        <source>src/test/java/resource/JobResourceTest.java</source>
+    </testSources>
+</archetype>
