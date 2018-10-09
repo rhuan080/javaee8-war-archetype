@@ -1,7 +1,7 @@
 # javaee8-war-archetype
 Archetype to create a java EE 8 project.
 
-## Install
+## Install on your local repository
 
 To install the archetype on your local repository, run the following command:
 
