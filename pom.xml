@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.rhuanrocha</groupId>
     <artifactId>javaee8-war-archetype</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3.SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>javaee8-war-archetype</name>
